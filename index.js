@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 })
 
 app.post("/login", (req, res) => {
-    // console.log(req.body)
+    console.log(req.query)
 
     res.send({ status: 200, userName: "sagar", pasword: "krishna", data: (req.body), querydata: req.query }) 
 })
