@@ -82,6 +82,8 @@ PrintFullData.call(obj2,"mumbai","bandra")
 
 // apply
 
+
+
 PrintFullData.apply(obj2,["odisha","bhadrak"])
 
 // bind
