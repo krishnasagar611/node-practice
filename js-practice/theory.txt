@@ -1,0 +1,220 @@
+1. What is the difference between 'Pass by Value' and 'Pass by Reference'?
+
+Ans:- All the primitive datatypes are pass by value and all the no-primitive datatypes are not pass by reference (array,functions,object)
+
+2. What is the difference between map and filter ? 
+
+Ans : Map returns a  new array and new array lenght is same  and filter returns a new  array with filtered elements and new array lenght is less than or equal to original array lenght 
+
+3. What is the difference between map() and forEach()
+Ans :map returns a new array with the results of the function applied to each element, while forEach does not return anything. 
+
+4.What is the difference between Pure and Impure functions?
+
+Ans :input and out put are same  are the same for pure function and impure function in put and out put are not same are the same for impure function
+
+5. What is the difference between for-in and for-of?
+
+Ans : for-in is used to iterate over object properties and for-of is used to iterate over iterable objects like arrays, strings, maps, sets, etc.
+
+6. What are the differences between call() , apply() and bind() ?
+Ans : call() is used to call a function with a given this value and arguments provided individually, apply() is used to call a function with a given this value and arguments provided as an array, bind() is used to create a new function with a given this value and arguments provided individually.
+
+7. List out some key features of ES6 ? 
+Ans : let and const are used to declare variables, arrow functions are used to define functions, template literals are used to define strings, destructuring is used to extract values from objects and arrays, spread operator is used to expand arrays and objects, promises are used to handle asynchronous operations, async/await is used to write asynchronous code in a synchronous manner, modules are used to organize code into separate files, classes are used to define objects and their properties and methods, set and map are used to store unique values and key-value pairs respectively.
+
+8. What's the spread operator in javascript ?
+
+Ans : The spread operator is used to expand an array or object into individual elements or properties.
+
+9. What is rest operator in javascript?
+
+Ans : The rest operator is used to collect multiple elements into an array or object.
+
+10. What are DRY, KISS, YAGNI, SOLID Principles ?
+
+Ans : DRY stands for Don't Repeat Yourself, KISS stands for Keep It Simple, Stupid, YAGNI stands for You Aren't Gonna Need It, SOLID stands for Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion.
+
+11. What is temporal dead zone ?
+Ans : A temporal dead zone (TDZ) is a period in JavaScript code when a variable is declared but not yet initialized with a value, and therefore cannot be accessed
+
+12. Different ways to create object in javascript ?
+
+Ans : Object literal, Object.create(), 
+Constructor function, Class, Object.assign(),
+ Object.create(), Object.fromEntries(), Object.entries(),
+  Object.keys(), Object.values(), Object.freeze(), Object.seal(),
+
+13. Whats the difference between Object.keys, values 
+
+Ans : keys returns an array of the object's own enumerable property names, values returns an array of the object's own enumerable property values,
+
+and entries 
+
+14. Whats the difference between Object.freeze() vs Object.seal()
+
+15. What is a polyfill in javascript ? 
+
+Ans : A polyfill is a piece of code that provides modern functionality on older browsers that do not natively support it.
+
+16. What is generator function in javascript ?
+
+Ans : A generator function is a special type of function that can be paused and resumed during its execution, allowing for more control over the flow of execution.
+
+17. What is prototype in javascript ?
+Ans : A prototype is an object that is used as a template for creating new objects in JavaScript.
+
+18. What is IIFE?  
+
+Ans : IIFE stands for Immediately Invoked Function Expression. It is a function that is defined and immediately invoked in the same statement. 
+
+19. What is CORS ?
+
+Ans : CORS stands for Cross-Origin Resource Sharing. It is a mechanism that allows web browsers to make requests to a different domain than the one that served the web page.
+  
+
+20. What are the different datatypes in javascript ?
+
+21. What are the difference between typescript and javascript ?
+
+22. What is authentication vs authorization ?  
+ans : authentication verify the user identity and authorization give the access its right 
+
+23. Difference between null and undefined ? 
+
+24. is the output of 3+2+"7"? 
+
+25. Slice vs Splice in javascript ? 
+ans : slice methode extract the the element from the original array its doesnt modified the array where as splice method used to add , remove  and delete the original array and its modified the original array
+
+26. What is destructuring? 
+
+27. What is setTimeOut in javascript? 
+
+28. What is setInterval in javascript? 
+
+29. What are Promises in javascript?  
+
+ans : Promises are objects that represent the eventual completion or failure of an asynchronous operation. They provide a way to handle asynchronous operations in a more structured and readable way.
+
+30. What is a callstack in javascript ?
+ans: A call stack is a data structure that keeps track of the order in which functions are called and executed in a program. It is a stack data structure that stores the function calls and their corresponding execution context.
+
+31. What is a closure ? 
+
+32. What are callbacks in javascript? 
+
+33. What are Higher Order Functions in javascript? 
+
+34. What is the difference between == and === in javascript ? 
+
+35. Is javascript a dynamically typed language or a typed language 
+
+36. What is the difference between Indexeddb and sessionstorage ? 
+
+37. What are Interceptors ? 
+
+38. What is Hoisting ? 
+
+39. What are the differences let, var and const ? 
+
+41. Differences between Promise.all, allSettled, any, race? 
+
+42. What are limitations of arrow functions? 
+
+43. What is difference between find vs findIndex? 
+
+44. is tree shaking in javascript ?  
+
+45. What is the main difference between Local Storage and Session storage?
+
+What is eval() ?
+
+47. What is the difference between Shallow copy and deep copy ?
+
+48. are the difference between undeclared and undefined variables ?
+
+49. What is event bubbling ? 
+
+50. What is event capturing ? 
+
+51. What are cookies ? 
+
+52. typeOf operator ? 
+
+53. What is this in javascript and How it behaves in various scenarios ?
+
+54. How do you optimize the performance of application
+
+55. What is meant by debouncing and throttling
+
+56 . What is async and await ?
+
+57 . what is Axios Interceptors ?
+
+Interceptors in Axios offer a powerful way to intercept and modify HTTP requests and responses
+
+58 . What is the difference between async and defer ?
+
+59 . What is currying in javascript ?
+
+60 what is error boundary ?
+
+1. What are selectors.?
+2. What is an Object Kit?
+3. What are elements.?
+4. SSR CSR ISR?
+5. Filter polyfill?
+6. Closer hosting call and apply, bind?
+7. Call back hell and how to prevent --promise and aur bhi hai check those out.
+8. Event bubbling, event capturing?
+9. What are HTML and CSS?
+10. How to react to work. How client-side work. How they manage, how we
+can say this is the client. 
+11. What is JavaScript? If it's single-threaded, how is it asynchronous? 
+12. How form submit 
+13. How cookies work.
+14. What is the array method? 
+15. What is react formatting? 
+16. What is prop lifting?
+17. What is a map and filter? 
+18. What is reconciliation?
+19. What is a keyframe?
+20. What is HOF, HOC?
+21. What are positions—relative, what types of positions—? the default position is static
+22. Order list and unordered list, disc-square, circle
+23. Box model, 
+24. What is the difference between flex and grid? 
+25. What is z-index? 
+26. What happens when we provide a margin on which side it will go in the element structure? (0px,10px,50px,0px)
+27. What is shadow DOM?  
+28. Box-sizing: content box; border box.
+29. How can we make a page or website responsive?
+30. how to write Media Query 
+31. Dispatcher, Redux flow, RTK 
+32. Semantic tags, word tags, void elements 
+33. SAAS (include, extend) SCSS 
+34. React nesting and child nesting. (https://dev.to/sanjampreetsingh/nested-components-a-bad-practice-reactjs-1hbf) 
+35. How is Django different from React? 
+36. How can we make React server-side js? 
+37. What is concurrency in Javascript (this event loop basically)*? 
+38. What is the difference between a tag and an element? A React fragment is a tag, not an element.
+
+39. async and await in js
+The async keyword is used to declare that a particular function is asynchronous. The await keyword waits for the execution of the async function's code block until a promise is fulfilled or rejected
+
+
+                                                    ------- Coding -----
+1. Countdown in React Input the start and stop buttons only after the start. 
+2. Search in feature small ( while practicing, use polyfill debounce ) 
+
+ 
+let x = 10 ;
+let y = (x++,x+1,x*2);
+console.log(y)
+
+console.log has 1>2>3  and opposite 5>3>2
+
+
+
+

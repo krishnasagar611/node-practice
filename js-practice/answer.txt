@@ -1,0 +1,207 @@
+Here are concise, one-liner answers for your interview questions:
+
+1. **Pass by Value vs. Pass by Reference**: Primitives are passed by value (copied), while non-primitives (objects, arrays) are passed by reference (shared).
+
+2. **Map vs. Filter**: `map` transforms each element and returns a new array of the same length, while `filter` returns a new array with elements that pass a condition.
+
+3. **Map vs. forEach**: `map` returns a new array, while `forEach` executes a function on each element without returning anything.
+
+4. **Pure vs. Impure Functions**: Pure functions always return the same output for the same input, while impure functions may produce side effects or different outputs.
+
+5. **for-in vs. for-of**: `for-in` iterates over object keys, while `for-of` iterates over iterable values (arrays, strings, etc.).
+
+6. **call(), apply(), bind()**: `call` and `apply` invoke a function with a specific `this` value (arguments passed individually or as an array), while `bind` creates a new function with a fixed `this` value.
+
+7. **ES6 Features**: `let`, `const`, arrow functions, template literals, destructuring, spread/rest operators, promises, async/await, classes, modules, `Set`, `Map`.
+
+8. **Spread Operator**: Expands arrays/objects into individual elements/properties.
+
+9. **Rest Operator**: Collects multiple elements into an array or object.
+
+10. **DRY, KISS, YAGNI, SOLID**: DRY (Don’t Repeat Yourself), KISS (Keep It Simple), YAGNI (You Aren’t Gonna Need It), SOLID (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion).
+
+11. **Temporal Dead Zone**: A period where a variable is declared but not yet initialized, causing errors if accessed.
+
+12. **Creating Objects**: Object literals, `new Object()`, `Object.create()`, constructor functions, classes.
+
+13. **Object.keys vs. Object.values**: `keys` returns property names, `values` returns property values.
+
+14. **Object.freeze vs. Object.seal**: `freeze` makes an object immutable, while `seal` prevents adding/removing properties but allows modifying existing ones.
+
+15. **Polyfill**: Code that provides modern functionality in older browsers.
+
+16. **Generator Function**: A function that can be paused and resumed using `yield`.
+
+17. **Prototype**: A template object used for inheritance in JavaScript.
+
+18. **IIFE**: A function that is immediately invoked after definition.
+
+19. **CORS**: Cross-Origin Resource Sharing, a mechanism for browsers to request resources from different domains.
+
+20. **JavaScript Data Types**: Primitive (`string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`) and non-primitive (`object`, `array`, `function`).
+
+21. **TypeScript vs. JavaScript**: TypeScript is a superset of JavaScript with static typing and additional features.
+
+22. **Authentication vs. Authorization**: Authentication verifies identity, while authorization grants access rights.
+
+23. **Null vs. Undefined**: `null` is an intentional absence of value, while `undefined` means a variable is declared but not assigned.
+
+24. **Output of `3 + 2 + "7"`**: `"57"` (due to type coercion).
+
+25. **Slice vs. Splice**: `slice` extracts elements without modifying the array, while `splice` modifies the array by adding/removing elements.
+
+26. **Destructuring**: Extracting values from arrays/objects into variables.
+
+27. **setTimeout**: Executes a function after a specified delay.
+
+28. **setInterval**: Repeatedly executes a function at specified intervals.
+
+29. **Promises**: Objects representing the eventual completion or failure of an asynchronous operation.
+
+30. **Callstack**: A stack data structure that tracks function calls and execution order.
+
+31. **Closure**: A function that retains access to its lexical scope even when executed outside that scope.
+
+32. **Callbacks**: Functions passed as arguments to be executed later.
+
+33. **Higher-Order Functions**: Functions that take other functions as arguments or return them.
+
+34. **== vs. ===**: `==` checks value with type coercion, while `===` checks value and type without coercion.
+
+35. **JavaScript Typing**: Dynamically typed (types are determined at runtime).
+
+36. **IndexedDB vs. SessionStorage**: IndexedDB is a client-side database, while SessionStorage stores data for a session.
+
+37. **Interceptors**: Middleware for intercepting and modifying HTTP requests/responses.
+
+38. **Hoisting**: JavaScript's behavior of moving declarations to the top of their scope.
+
+39. **let, var, const**: `let` and `const` are block-scoped, `var` is function-scoped, and `const` is immutable.
+
+40. **Promise.all, allSettled, any, race**: `all` resolves when all promises resolve, `allSettled` resolves after all promises settle, `any` resolves when any promise resolves, `race` resolves when the first promise resolves.
+
+41. **Arrow Function Limitations**: No `this`, `arguments`, or `super` binding, and cannot be used as constructors.
+
+42. **find vs. findIndex**: `find` returns the first matching element, while `findIndex` returns its index.
+
+43. **Tree Shaking**: Removing unused code during bundling.
+
+44. **Local Storage vs. Session Storage**: Local Storage persists data indefinitely, while Session Storage clears data when the session ends.
+
+45. **eval()**: Executes a string as JavaScript code (avoid due to security risks).
+
+46. **Shallow Copy vs. Deep Copy**: Shallow copy duplicates top-level properties, while deep copy duplicates nested properties.
+
+47. **Undeclared vs. Undefined**: Undeclared variables are not declared, while undefined variables are declared but not assigned.
+
+48. **Event Bubbling**: Events propagate from the target element up to the root.
+
+49. **Event Capturing**: Events propagate from the root down to the target element.
+
+50. **Cookies**: Small pieces of data stored in the browser for tracking or session management.
+
+51. **typeof Operator**: Returns the data type of a variable.
+
+52. **this in JavaScript**: Refers to the current execution context (varies based on how a function is called).
+
+53. **Performance Optimization**: Minimize re-renders, use lazy loading, optimize assets, and reduce network requests.
+
+54. **Debouncing vs. Throttling**: Debouncing delays execution until after a pause, while throttling limits execution to a fixed rate.
+
+55. **async/await**: Syntax for handling asynchronous operations in a synchronous style.
+
+56. **Axios Interceptors**: Middleware for intercepting and modifying HTTP requests/responses in Axios.
+
+57. **async vs. defer**: `async` loads scripts asynchronously, while `defer` delays execution until after HTML parsing.
+
+58. **Currying**: Transforming a function to take arguments one at a time.
+
+59. **Error Boundary**: A React component that catches JavaScript errors in its child components.
+
+60. **Selectors**: Patterns used to select elements in CSS or JavaScript.
+
+61. **Object Kit**: A collection of utility methods for working with objects.
+
+62. **Elements**: The building blocks of HTML documents.
+
+63. **SSR, CSR, ISR**: Server-Side Rendering, Client-Side Rendering, Incremental Static Regeneration.
+
+64. **Filter Polyfill**: A custom implementation of the `filter` method for older browsers.
+
+65. **Callback Hell**: Nested callbacks leading to unreadable code; solved with Promises or async/await.
+
+66. **HTML and CSS**: HTML structures content, while CSS styles it.
+
+67. **React Client-Side Work**: React renders components in the browser using JavaScript.
+
+68. **JavaScript Asynchronous**: Single-threaded but uses event loops and callbacks for async operations.
+
+69. **Form Submission**: Data is sent to a server via HTTP methods like GET or POST.
+
+70. **Cookies Work**: Stored in the browser and sent with every request to the server.
+
+71. **Array Methods**: Functions like `map`, `filter`, `reduce` for manipulating arrays.
+
+72. **React Formatting**: Using JSX and components to structure UI.
+
+73. **Prop Lifting**: Passing data from child to parent components via callbacks.
+
+74. **Reconciliation**: React's process of updating the DOM efficiently.
+
+75. **Keyframes**: Define animations in CSS.
+
+76. **HOF, HOC**: Higher-Order Functions and Higher-Order Components.
+
+77. **CSS Positions**: `static`, `relative`, `absolute`, `fixed`, `sticky`.
+
+78. **Ordered/Unordered Lists**: `<ol>` for numbered lists, `<ul>` for bulleted lists.
+
+79. **Box Model**: Content, padding, border, margin.
+
+80. **Flex vs. Grid**: Flex is for 1D layouts, Grid is for 2D layouts.
+
+81. **z-index**: Controls the stacking order of elements.
+
+82. **Margin Order**: Top, right, bottom, left.
+
+83. **Shadow DOM**: Encapsulates styles and markup within a component.
+
+84. **Box-Sizing**: `content-box` (default), `border-box` (includes padding and border in width/height).
+
+85. **Responsive Design**: Using media queries and flexible layouts.
+
+86. **Media Query**: `@media` rule for applying styles based on device characteristics.
+
+87. **Redux Flow**: Actions → Reducers → Store → UI.
+
+88. **Semantic Tags**: `<header>`, `<footer>`, `<article>`, etc., for meaningful HTML structure.
+
+89. **SASS/SCSS**: CSS preprocessors with features like variables and nesting.
+
+90. **React Nesting**: Composing components within other components.
+
+91. **Django vs. React**: Django is a backend framework, React is a frontend library.
+
+92. **React Server-Side**: Using frameworks like Next.js for server-side rendering.
+
+93. **Concurrency in JavaScript**: Managed via the event loop and asynchronous operations.
+
+94. **Tag vs. Element**: A tag is the HTML syntax, an element is the DOM representation.
+
+95. **React Fragment**: A tag (`<></>`) for grouping elements without adding extra nodes.
+
+96. **async/await**: Simplifies asynchronous code by making it look synchronous.
+
+97. **Axios Interceptors**: Middleware for modifying requests/responses.
+
+98. **Currying**: Breaking down a function into a series of functions with single arguments.
+
+99. **Error Boundary**: Catches errors in React components to prevent crashes.
+
+100. **Coding Questions**:
+    - Countdown in React: Use `setInterval` and state management.
+    - Search with Debounce: Use `setTimeout` to delay API calls.
+    - `let y = (x++, x+1, x*2)`: `y` is `22` (last expression evaluated).
+    - `console.log(1>2>3)`: `false` (evaluates as `(1>2) > 3` → `false > 3` → `0 > 3` → `false`).
+
+These one-liners should help you quickly recall key points during interviews!
